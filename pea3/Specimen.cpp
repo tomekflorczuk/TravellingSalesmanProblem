@@ -15,13 +15,13 @@ Specimen::Specimen()
 }
 
 //Dostêp do kosztu osobnika
-int Specimen::GetCost()
+int Specimen::GetCost() const
 {
 	return Cost;
 }
 
 //Dostêp do œcie¿ki osobnika
-vector<int> Specimen::GetPath()
+vector<int> Specimen::GetPath() const
 {
 	return Path;
 }

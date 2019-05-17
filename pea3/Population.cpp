@@ -15,7 +15,7 @@ Population::Population(int populationsize)
 }
 
 //Dostêp do wielkoœci populacji
-int Population::GetSize()
+int Population::GetSize() const
 {
 	return Size;
 }

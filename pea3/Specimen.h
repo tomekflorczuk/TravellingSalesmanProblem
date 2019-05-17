@@ -11,8 +11,8 @@ class Specimen
 public:
 	Specimen(vector<int> path);
 	Specimen();
-	int GetCost();
-	vector<int> GetPath();
+	int GetCost() const;
+	vector<int> GetPath() const;
 	void SetPath(vector<int> path);
 	static int CompareSpecimens(Specimen S1, Specimen S2);
 };

@@ -11,7 +11,7 @@ class Population
 public:
 	Population();
 	Population(int populationsize);
-	int GetSize();
+	int GetSize() const;
 	void SetSize(int size);
 	void AddSpecimen(Specimen S);
 	void AddSpecimen(int index, Specimen s);

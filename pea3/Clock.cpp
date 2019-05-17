@@ -43,7 +43,7 @@ long long int Clock::GetFrequency()
 }
 
 //Ustawienie czêstotliwoœci
-void Clock::SetFrequency(long long frequency)
+void Clock::SetFrequency(long long int frequency)
 {
 	Frequency = frequency;
 }
