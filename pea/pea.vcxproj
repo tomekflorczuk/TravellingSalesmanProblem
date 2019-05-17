@@ -157,12 +157,6 @@
     <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="13.txt" />
-    <Text Include="bb.txt" />
-    <Text Include="dane1.txt" />
-    <Text Include="dane2.txt" />
-    <Text Include="dane3.txt" />
-    <Text Include="dp.txt" />
     <Text Include="test.txt" />
     <Text Include="tsp_10.txt" />
     <Text Include="tsp_12.txt" />

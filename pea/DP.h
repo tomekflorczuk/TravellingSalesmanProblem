@@ -10,9 +10,7 @@ public:
 	DP();
 	~DP();
 	void static DynamicProgramming(int mask, int currentpoint, int &currentcost);
-	//int static BinomialTheorem(int n, int k);
-	//int static Factorial(int l);
-	int const static GetCost();
+	int static GetCost();
 	void static ShowMatrix();
 	void static ShowResult();
 	void static Clear();

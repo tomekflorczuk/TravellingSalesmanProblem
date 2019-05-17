@@ -33,8 +33,6 @@ DP::~DP()
 //Programowanie dynamiczne
 void DP::DynamicProgramming(int mask, int currentpoint, int &currentcost)
 {	
-	//ShowMatrix();
-	//cout << "-----------------" << endl;
 	mincost = INT_MAX;
 	if (mask != visited)
 	{
@@ -45,23 +43,19 @@ void DP::DynamicProgramming(int mask, int currentpoint, int &currentcost)
 				if ((mask&1 << i) == 0)
 				{
 					int cost = Data::GetCost(currentpoint, i);
-					//int cost = Data::GetCost(currentpoint, i) + DynamicProgramming(mask|(1 << i), i);
 					DynamicProgramming(mask | 1 << i, i, cost);
 					if (cost < mincost) mincost = cost;
 				}
 			}
 			Matrix[mask][currentpoint] = mincost;
-			//return Matrix[mask][currentpoint];
 			currentcost = currentcost + Matrix[mask][currentpoint];
 		}	
-		//return Matrix[mask][currentpoint];
 		currentcost = currentcost + Matrix[mask][currentpoint];
 	}
-	//return Data::GetCost(currentpoint, Data::GetStartingPoint());
 	currentcost = currentcost + Data::GetCost(currentpoint, Data::GetStartingPoint());
 }
 
-int const DP::GetCost()
+int DP::GetCost()
 {
 	return cost;
 }

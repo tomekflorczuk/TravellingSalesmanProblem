@@ -58,15 +58,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="dane1.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="dane2.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="dane3.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="test.txt">
       <Filter>Source Files</Filter>
     </Text>
@@ -85,9 +76,6 @@
     <Text Include="tsp_14.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="bb.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="tsp_22.txt">
       <Filter>Source Files</Filter>
     </Text>
@@ -97,9 +85,6 @@
     <Text Include="tsp_15.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="dp.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="tsp_15a.txt">
       <Filter>Source Files</Filter>
     </Text>
@@ -107,9 +92,6 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="tsp_17m.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="13.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
