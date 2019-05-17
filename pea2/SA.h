@@ -13,7 +13,7 @@ class SA
 	static const int maxit;
 public:
 	void static Algorithm();
-	float static Probability(int cost, int neighbourcost, float t);
-	float static Random();
+	inline float static Probability(int cost, int neighbourcost, float t);
+	inline float static Random();
 	void static ShowResult();
 };

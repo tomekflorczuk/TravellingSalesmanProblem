@@ -11,12 +11,11 @@ class TS
 	static vector<int> minvertexes;
 	static bool Diversification;
 public:
-	TS();
 	void static ToogleDiversification();
 	bool static GetDiversification();
 	void static Algorithm();
-	bool static Aspiration(int neighbourcost);
-	bool static CriticalEvent(int iterations);
+	inline bool static Aspiration(int neighbourcost);
+	inline bool static CriticalEvent(int iterations);
 	vector<int> static Restart();
 	void static ShowResult();
 };

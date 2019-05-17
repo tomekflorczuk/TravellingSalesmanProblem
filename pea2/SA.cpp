@@ -70,13 +70,13 @@ void SA::Algorithm()
 }
 
 //Obliczanie prawdopodobieñstwa zmiany na gorsze rozwi¹zanie
-float SA::Probability(int cost, int neighbourcost, float t)
+inline float SA::Probability(int cost, int neighbourcost, float t)
 {
 	return exp(-(float)((neighbourcost - cost) / t) );
 }
 
 //Generowanie losowej liczby z przedzia³u <0,1>
-float SA::Random()
+inline float SA::Random()
 {
 	return (float) rand() / RAND_MAX;
 }

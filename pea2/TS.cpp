@@ -132,14 +132,14 @@ void TS::Algorithm()
 }
 
 //Kryterium aspiracji
-bool TS::Aspiration(int neighbourcost)
+inline bool TS::Aspiration(int neighbourcost)
 {
 	if (neighbourcost < mincost) return true;
 	return false;
 }
 
 //Zdarzenie krytyczne
-bool TS::CriticalEvent(int iterations)
+inline bool TS::CriticalEvent(int iterations)
 {
 	if (iterations > Data::GetSize()) return true;
 	return false;
